@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChatDemo.ChatClient" Collapsed="true">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAIAAACAAEAIABAAAAAECEA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Chat\ChatClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.ChatSever" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Chat\ChatSever.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.ClientUdpNetService">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAiAQAQAAACAAACAAACAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Net\ClientUdpNetService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.SeverUdpNetService">
+    <Position X="2.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAARiAQAQAAACAAACAAACAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Net\SeverUdpNetService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.ReceiveEventArgs" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\ReceiveEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.ChatMessage">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQAgAAAAAAAgAAAAAAAAAAAQAAAQAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\ChatMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.CreateClientMessage" Collapsed="true">
+    <Position X="7" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgEAAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\CreateClientMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.CreateSeverMessage" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\CreateSeverMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.ClientMessageManger" Collapsed="true">
+    <Position X="7" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\ClientMessageManger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.SeverMessageManger" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\SeverMessageManger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.LogInButtons" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAFCAAAAABAIAABAAACAAEAAgAAEAAAAIAAEQ=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\LogIn\LogInButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.LogInContent" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAKAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\LogIn\LogInContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.LogInInput" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAQAAAAAIAAAAAAAAAAAAIAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\LogIn\LogInInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatDemo.KeepObject" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Other\KeepObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ChatDemo.MessageOwer" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\MessageOwer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChatDemo.MessageType" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAECAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Socket\ChatDemo\Message\MessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9.08" />
+</ClassDiagram>
