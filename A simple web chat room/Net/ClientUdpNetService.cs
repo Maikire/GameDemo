@@ -106,7 +106,7 @@ namespace ChatDemo
         private void OnApplicationQuit()
         {
             NotiyfSever(MessageType.OffLine);
-            ClientThread.Abort();
+            ClientThread?.Abort();
             UDPClient?.Dispose();
         }
 
