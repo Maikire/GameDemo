@@ -127,8 +127,6 @@ namespace ChatDemo
             LogInInput logInInput = ClientContent.GetComponent<LogInInput>();
             ClientUdpNetService.Instance.Initialize(logInInput.Content);
 
-            SeverUdpNetService.Instance.enabled = false;
-
             SceneManager.LoadScene("ChatDemoClient", LoadSceneMode.Single);
         }
 
@@ -139,8 +137,6 @@ namespace ChatDemo
         {
             LogInInput logInInput = SeverContent.GetComponent<LogInInput>();
             SeverUdpNetService.Instance.Initialize(logInInput.Content);
-
-            ClientUdpNetService.Instance.enabled = false;
 
             SceneManager.LoadScene("ChatDemoSever", LoadSceneMode.Single);
         }
