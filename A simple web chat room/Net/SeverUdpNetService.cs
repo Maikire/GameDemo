@@ -129,7 +129,7 @@ namespace ChatDemo
 
         private void OnApplicationQuit()
         {
-            SeverThread.Abort();
+            SeverThread?.Abort();
             UDPClient?.Dispose();
         }
 
